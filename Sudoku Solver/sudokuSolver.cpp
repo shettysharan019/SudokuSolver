@@ -117,11 +117,11 @@ int main() {
 		Solution ob;
 		
 		if(ob.SolveSudoku(grid) == true)  
-            ob.printGrid(grid);  
-        else
-            cout << "No solution exists";  
+            		ob.printGrid(grid);  
+        	else
+            		cout << "No solution exists";  
         
-        cout << endl;
+        	cout << endl;
 	}
 	return 0;
 }
